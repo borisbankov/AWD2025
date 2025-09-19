@@ -1,0 +1,63 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+    body{
+        background:black;
+    } 
+    div{
+        background:white;
+        margin:0 auto;
+        width:300px;
+    }
+
+    @media screen and (min-width: 500px){
+        div{
+            width:400px;
+            background: pink;
+        }
+    }
+
+    @media screen and (min-width: 1200px){
+        div{
+            width:900px;
+            background: green;
+        }
+    }
+
+    @media screen and (min-width: 1600px){
+        div{
+            width:1200px;
+            background: gold;
+        }
+    }
+
+/*    div{
+        background:gold;
+        margin:0 auto;
+        width:1200px;
+    }
+
+    @media screen and (max-width: 1599.98px){
+        div{
+            width:900px;
+            background: green;
+        }
+    }
+
+    @media screen and (max-width: 1199.98px){
+        div{
+            width:500px;
+            background: white;
+        }
+    }*/
+    </style>
+</head>
+<body>
+    <div class="">
+      <h1>This is a reponsive container</h1>
+      <p>This container is <span class=""></span> pixels wide when the browser is <span class=""></span> pixels wide. Resize the browser to see it change.</p>
+    </div>
+</body>
+</html>

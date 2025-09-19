@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		body {
+			margin:0;
+		}
+		.container{
+			background: #000;
+			color: #fff;
+		}
+		.box {
+			width: 80%;
+			margin: 0 auto;
+			background: yellow;
+		}
+
+		@media screen and (min-width: 768px){
+			.box{
+				width: 50%;
+				background: firebrick;
+			}
+		}
+
+		@media screen and (min-width: 1200px){
+			.box{
+				width: 25%;
+				background: magenta;
+			}
+		}
+	</style>
+	<!-- Tools -> Install Package Control
+	ctrl+shift+p -> install package -> Emmet
+	close & open sublime	 -->
+</head>
+<body>
+	<div class="container">
+		<div class="box">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor sequi, rerum at quae nobis error minima sint numquam! Illo eaque ipsa quisquam ab deleniti id reiciendis odit unde totam eveniet.</div>
+	</div>
+</body>
+</html>
